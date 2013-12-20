@@ -1,0 +1,128 @@
+
+/*
+    SWIPA - A Swipe library for all browsers
+*/
+.swiper-wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+.swiper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.swiper .swiper-slide {
+    display: table-cell;
+    padding: 0!important;
+    margin: 0!important;
+    vertical-align: top;
+}
+.swiper img {
+    width: inherit;
+    /* Make images fill their parent's space. Solves IE8. */
+
+    max-width: 100%;
+    height: auto;
+    /* Add !important if needed. */
+
+    display: block;
+    margin: 0 auto;
+}
+.swiper-bullets {
+    color: #d2d2d2;
+    text-align: center;
+}
+.swiper-bullets > span {
+    font-size: 3.5em;
+    display: inline-block;
+    width: 0.5em;
+    text-shadow: 1px 1px 0px #888;
+}
+.swiper-bullets > span:before {
+    font-family: 'particon';
+    content: "l";
+}
+.swiper-bullets .current {
+    color: #8c8c8c;
+}
+.swipa-nav > div {
+    vertical-align: middle;
+    text-align: center;
+}
+/*
+    .swipa-nav >div.swipa-left {
+        width:15%;
+        font-size:3em;
+
+    }
+    .swipa-nav >div.swipa-right {
+       width:15%;
+       font-size:3em;
+    }
+    .swipa-nav >div.swiper-bullets {
+        width:70%;
+    }
+*/
+/*
+    *  Bullet-Navi
+    *
+
+	.bullet-navi
+	{
+		line-height:1;
+		font-size:16px;
+		height:30px;
+	}
+
+	.bullet-navi .bullets
+	{
+		text-align:center;
+		color:@color-bullets;
+	}
+	.bullet-navi .bullet.active
+	{
+		color:@color-bullets-active;
+	}
+	.bullet-navi .bullets > span
+	{
+
+	}
+
+    .bullet-navi .arrow-left, .bullet-navi .arrow-right
+    {
+		//color:#444444;
+		text-decoration:none;
+		padding:0 10px;
+		font-size:0;
+		display:block;
+    }
+
+
+	.bullet-navi .arrow-left >span
+    {
+		display:inline-block;
+		width:14px;
+		height:14px;
+		background:url("../../../Images/icons/arrow-left.png") no-repeat scroll 0 0 transparent;
+    }
+
+	.bullet-navi .arrow-right >span
+    {
+		display:inline-block;
+		width:14px;
+		height:14px;
+		background:url("../../../Images/icons/arrow-right.png") no-repeat scroll 0 0 transparent;
+    }
+
+	.bullet-navi .bullets > span.active
+	{
+	}
+         */
