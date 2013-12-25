@@ -1,4 +1,4 @@
 Swipa
 =====
 
-a javascript library for swipe support on touch and click devices
+a jquery library for swipe support on touch and click devices
